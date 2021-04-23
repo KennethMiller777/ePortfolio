@@ -1,6 +1,6 @@
 ## About Me
 
-Insert Bio Here
+My name is Kenneth Miller, and I was born and raised in California. I love to invest in cryptocurrency and learning new and interesting things such as drawing and art as well as learning new languages. I am currently in the process of learning Japanese, but and more focusing on my long-term goals and future careers. When I was young I loved to play video games as a hobby, and one of the things I found interesting is how the games and the systems they ran on worked from the inside out. When it came time to figure out what I wanted to do professionally I chose to become a software engineer and gain as much knowledge and experience as I could in as many fields of technology so that I could fit in anywhere and be more appealing. 
 
 ### Professional Self-Assessment
 
