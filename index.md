@@ -280,7 +280,7 @@ Void Stack::swap(const Stack& other[]){
 
 ### Database
 
-The initial artifact was a final project that was meant to demonstrate my skills in SQL, mainly in the area of CRUD, although the code only uses one example of a database. The code contains numerous examples of Creating tables and data, deleting tables and data, updating data that exists within the tables and their criteria, and reading the data that is within the tables. In the updated version for the capstone, I added more exampled of Reading the data within the tables. These examples also include JOIN and INNER JOIN commands as well as the use of GROUPING and ORDERING commands to show that they are in use and when they can be used effectively. Showing an SQL file in my portfolio is important because it shows that I have knowledge in the area of databases; organizing, managing, updating, reading, deleting, and creating them are all absolutely necessary skills to have when working with databases. It also shows that my programming skills are not just limited to coding languages involving programs and applications.
+The initial artifact was a final project that was meant to demonstrate my skills in SQL, mainly in the area of CRUD, although the code only uses one example of a database. The code contains numerous examples of Creating tables and data, deleting tables and data, updating data that exists within the tables and their criteria, and reading the data that is within the tables. In the updated version for the capstone, I added more examples of Reading the data within the tables. These examples also include JOIN and INNER JOIN commands as well as the use of GROUPING and ORDERING commands to show that they are in use and when they can be used effectively. Showing an SQL file in my portfolio is important because it shows that I have knowledge in the area of databases; organizing, managing, updating, reading, deleting, and creating them are all absolutely necessary skills to have when working with databases. It also shows that my programming skills are not just limited to coding languages involving programs and applications.
 
 ```markdown
 USE messaging; 
@@ -483,7 +483,7 @@ while True:
 
 ### JavaScript
 
-The final skill I wished to show off was a code that is used in association with HTML and CSS. The following JavaScript code is a game that will display a pair of dice to the user and then save the dice number to the players score. Additional files to run the code involve several pictures for displaying dice, and HTML file, and a CSS file. I felt that displaying an example of a code that can run a website was important for versatiliy in my skillset, and showing that I'm not afraid to go out an learn something on my own, something that isn't really taught in most school programs ofr computer science.
+The final skill I wanted to showcase was a code that is used in association with HTML and CSS. The following JavaScript code is a game that will display a pair of dice to the user and then save the dice number to the players score. Additional files to run the code involve several pictures for displaying dice, and HTML file, and a CSS file. I felt that displaying an example of a code that can run a website was important for versatiliy in my skillset, and showing that I'm not afraid to go out an learn something on my own, something that isn't really taught in most school programs of computer science.
 
 ```markdown
 /*
