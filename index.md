@@ -1,14 +1,13 @@
 ## About Me
 
-<Bio Here>
+Insert Here
 
 ### Professional Self-Assessment
-
-<Insert Here>
+Insert Here
 
 ### Software Design and Engineering
 
-<Narrative Here>
+Insert Narrative Here
 
 ```markdown
 u_string = input('Enter input string: \n')
