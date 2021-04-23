@@ -85,8 +85,6 @@ int main(){
 }	
 ```
 
-
-
 ### Algorithm and Data Structure
 
 Insert Narrative Here
@@ -146,16 +144,12 @@ Stack::Stack(unsigned capacity) { //added and exception in case capacity is less
 	}
 }
 
-/* copy constructor
- * Parameter: original, a Stack (const reference).
- */
+// copy constructor, Parameter: original, a Stack (const reference).
 Stack::Stack(const Stack& original) {
 	makeCopyOf(original);
 }
 
-/* utility method containing code refactored from the copy constructor and operator=.
- * Parameter: original, a Stack (const reference). Precondition: original.myCapacity > 0.
- */
+// utility method containing code refactored from the copy constructor and operator=. Parameter: original, a Stack (const reference). Precondition: original.myCapacity > 0.
 void Stack::makeCopyOf(const Stack& original) {
 	myCapacity = original.myCapacity;
 	myArray = new Item[myCapacity];
@@ -166,9 +160,7 @@ void Stack::makeCopyOf(const Stack& original) {
 	mySize = original.mySize;
 }
 
-/* destructor
- * Postcondition: myCapacity == 0 && mySize == 0 && myArray has been deallocated.
- */
+// destructor, Postcondition: myCapacity == 0 && mySize == 0 && myArray has been deallocated.
 Stack::~Stack() {
 	delete [] myArray;
 	myArray = NULL;
@@ -176,9 +168,7 @@ Stack::~Stack() {
 	mySize = 0;
 }
 
-/* assignment operator
- * Parameter: original, a Stack (const reference).
- */
+// assignment operator, Parameter: original, a Stack (const reference).
 Stack& Stack::operator=(const Stack& original) {
 	if (this != &original) {
 		delete [] myArray;
@@ -187,8 +177,7 @@ Stack& Stack::operator=(const Stack& original) {
 	return *this;
 }
 
-/* checks if the stack is empty. if it is, return true, else false
- */
+// checks if the stack is empty. if it is, return true, else false
 bool Stack::isEmpty() const
 {
     if(mySize == 0) {  
@@ -197,8 +186,7 @@ bool Stack::isEmpty() const
     return false;
 }
 
-/* checks to see if the stack is full, if it is return true, else false
- */
+// checks to see if the stack is full, if it is return true, else false/
 bool Stack::isFull() const 
 {
     if(mySize == myCapacity) {  
@@ -207,8 +195,7 @@ bool Stack::isFull() const
     return false;  
 }
 
-/* pushes a new item onto the top of the stack
- */
+// pushes a new item onto the top of the stack
 void Stack::push(const Item& it) 
 {
     if(isFull()){
@@ -220,8 +207,7 @@ void Stack::push(const Item& it)
     }
 }
 
-/* removes the top element from the stack
- */
+// removes the top element from the stack
 Item Stack::pop()
 {
 	if (isEmpty()){
@@ -233,8 +219,7 @@ Item Stack::pop()
 	}
 }
 
-/* returns the top item in the stack
- */
+// returns the top item in the stack
 Item Stack::peekTop() const 
 {
 	if(isEmpty()){
@@ -246,15 +231,12 @@ Item Stack::peekTop() const
 }
 
 //NEW, ADD-ONS
-/* get the size of the stack
- * this is needed for the swap member function
- */
+// get the size of the stack this is needed for the swap member function
 int Stack::getSize(){
 	return mySize;
 }
 
-/* swaps one stack with another
- */        
+// swaps one stack with another       
 Void Stack::swap(const Stack& other[]){
 	Stack<Item> tmp1, tmp2;
 	if(isEmpty() || other.isEmpty()){
