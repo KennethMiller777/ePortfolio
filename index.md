@@ -22,7 +22,6 @@ int main(){
 	//declare the user's string
 	string uString = "";
 	
-	//start of main while loop, if the user enters q, the program will stop
 	while (uString.at(0) != 'q'){
 	
 		//variable for comma
@@ -33,7 +32,6 @@ int main(){
 	
 			//asks the user to enter a word with a comma then another word
 			cout << "Please enter a word followed by a comma, then another word.\n";
-			cout << ">";
 			getline(cin, uString);
 			cout << "\n";
 	
