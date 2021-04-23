@@ -4,7 +4,10 @@ Insert Bio Here
 
 ### Professional Self-Assessment
 
-Insert Here
+I have been focusing on upgrading my skills in data structures and software designs along with databases so that I can achieve a level of skills that meet the requirements for the IT field. I have been successful in upgrading my skills in both data structures and software design. I have worked on many projects with a variety of different coding languages and outcomes. Including Java, JavaScript, C++, Python, C, and even assembly language. Some of the different outcomes range from security authentication systems to even 3D and 2D graphics rendering codes. While I worked on these projects, I captured the opportunity to learn new development and security practices because I knew it that those are some of the most desirable within the IT field. Now I am eager to step into my professional life by gaining knowledge of industry level development practices. I always make sure to complete work on time even if that means doing some extra work because time is the most important thing.
+
+The artifacts showcased within this portfolio are meant to show a diversity in skills, proof that I have the potential to learn and grow in any given position. The first is an example of my skills in Design and engineering, shown by reverse engineering a code in one language and translating it into another more difficult language, comparatively. The second code shows an example of a class for a simple stack dataset and search algorithm that I had slightly modified to be more versatile depending on the situation that it might be used in. The final piece of code is an example of a basic SQL file that creates a set of new tables within a database with given data, as well as displaying the data to the user, a basic example of CRUD functions for databases. The additional blocks of code are there as further examples of my knowledge in relation to my knowledge and experience gained as a software engineering student including Java code, Python code, and JavaScript code that I wrote.
+
 
 ## Examples of Skills and Abilities
 
