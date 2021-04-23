@@ -3,7 +3,10 @@
 Insert Bio Here
 
 ### Professional Self-Assessment
+
 Insert Here
+
+## Examples of Skills and Abilities
 
 ### Software Design and Engineering
 
@@ -370,3 +373,5 @@ SELECT message_image.message_id,
 	ON image.image_id = message_image.image_id
 	GROUP BY message_image.message_id;
 ```
+
+## About Me
