@@ -381,7 +381,7 @@ SELECT message_image.message_id,
 
 ### Java
 
-The following is a JUnit test taken from Java project. The test is used to make sure the PatientHistory class file works fine and is also totally compatible with the other classes that exist within the project. This example show two different sets of skill. The first skill is that it shows I uderstand Java coding and know how to write it. and secodnly, that i know how to write and preform JUnit test for Java programs and their classes.
+The following is a JUnit test taken from Java project. The test is used to make sure the PatientHistory class file works fine and is also totally compatible with the other classes that exist within the project. This example show two different sets of skill. The first skill is that it shows I uderstand Java coding and know how to write it. and secondly, that i know how to write and preform JUnit test for Java programs and their classes.
 
 ```markdown
 package medicalApplication.Model;
@@ -440,7 +440,7 @@ public class TestPatientHistory {
 
 ### Python
 
-I put an example of a Python code in here to show how diverse my skillset is, and that I know how to both understand and write in Python coding. Another benifit of this code is that it exmplifies how I know how Raspberry Pi and Grove Pi work with codes. This code is simple and works with Raspberry Pi, Grove Pi, and the associated modules and sensors that interact with the code and hardwa
+I put an example of a Python code in here to show how diverse my skillset is, and that I know how to both understand and write in Python coding. Another benifit of this code is that it exmplifies how I know how Raspberry Pi and Grove Pi work with codes. This code is simple and works with Raspberry Pi, Grove Pi, and the associated modules and sensors that interact with the both the code and the hardware.
 
 ```markdown
 // a program that uses a raspberry pi with a grove pi attachment and several modules attached
@@ -481,9 +481,9 @@ while True:
         print ("Error")
 ```
 
-### Javascript
+### JavaScript
 
-The final skill I wished to show off was a code that is used in association with HTML and CSS. The following Javascript code is a game that will display a pair of dice to the user and then save the dice number to the players score. Additional files to run the code involve several pictures for displaying dice, and HTML file, and a CSS file. I felt that displaying an example of a code that can run a website was important for versatiliy in my skillset, and showing that I'm not afraid to go out an learn something on my own, something that isn't really taught in most school programs ofr computer science.
+The final skill I wished to show off was a code that is used in association with HTML and CSS. The following JavaScript code is a game that will display a pair of dice to the user and then save the dice number to the players score. Additional files to run the code involve several pictures for displaying dice, and HTML file, and a CSS file. I felt that displaying an example of a code that can run a website was important for versatiliy in my skillset, and showing that I'm not afraid to go out an learn something on my own, something that isn't really taught in most school programs ofr computer science.
 
 ```markdown
 /*
