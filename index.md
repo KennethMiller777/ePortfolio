@@ -133,7 +133,8 @@ class Stack {
 	   friend class StackTester;
 };
 
-Stack::Stack(unsigned capacity) { //added and exception in case capacity is lesser than or equal to zero
+//added and exception in case capacity is lesser than or equal to zero
+Stack::Stack(unsigned capacity) { 
 	if (capacity <= 0){
 		throw CustomStackException("Stack(capacity)", "capacity must be greater than zero");
 	}
@@ -149,7 +150,8 @@ Stack::Stack(const Stack& original) {
 	makeCopyOf(original);
 }
 
-// utility method containing code refactored from the copy constructor and operator=. Parameter: original, a Stack (const reference). Precondition: original.myCapacity > 0.
+// utility method containing code refactored from the copy constructor and operator=. 
+//Parameter: original, a Stack (const reference). Precondition: original.myCapacity > 0.
 void Stack::makeCopyOf(const Stack& original) {
 	myCapacity = original.myCapacity;
 	myArray = new Item[myCapacity];
@@ -198,8 +200,8 @@ bool Stack::isFull() const
 // pushes a new item onto the top of the stack
 void Stack::push(const Item& it) 
 {
-    if(isFull()){
-        throw CustomStackException("push()", "stack is full"); //throw exception in case the stack is full
+    if(isFull()){ /throw exception in case the stack is full
+        throw CustomStackException("push()", "stack is full"); /
     }
     else {
         myArray[mySize] = it;
@@ -210,11 +212,11 @@ void Stack::push(const Item& it)
 // removes the top element from the stack
 Item Stack::pop()
 {
-	if (isEmpty()){
-		throw CustomStackException("pop()", "stack is empty"); //throw exception in case the stack was empty
+	if (isEmpty()){ //throw exception in case the stack was empty
+		throw CustomStackException("pop()", "stack is empty"); 
 	}
-	else {
-  		mySize = mySize - 1; //if you simply reduce the size of the stack by one, you will remove the top item
+	else { //if you simply reduce the size of the stack by one, you will remove the top item
+  		mySize = mySize - 1; 
   		return myArray[mySize];
 	}
 }
@@ -222,8 +224,8 @@ Item Stack::pop()
 // returns the top item in the stack
 Item Stack::peekTop() const 
 {
-	if(isEmpty()){
-		throw CustomStackException("peekTop()", "stack is empty"); //throw and exception incase the stack was empty
+	if(isEmpty()){ //throw and exception incase the stack was empty
+		throw CustomStackException("peekTop()", "stack is empty"); 
     	}
 	else {
  		return myArray[mySize - 1];
@@ -239,8 +241,9 @@ int Stack::getSize(){
 // swaps one stack with another       
 Void Stack::swap(const Stack& other[]){
 	Stack<Item> tmp1, tmp2;
-	if(isEmpty() || other.isEmpty()){
-		throw CustomStackException("swap()", "one of the stacks is empty"); //throw and exception incase the stack was empty
+	
+	if(isEmpty() || other.isEmpty()){ /throw and exception incase the stack was empty
+		throw CustomStackException("swap()", "one of the stacks is empty"); /
     	}
 	else {
 		//swaps this array for the passing array, and saves this array to the temporary one
